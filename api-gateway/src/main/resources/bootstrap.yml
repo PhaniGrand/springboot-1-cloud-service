@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      import:opptional:configserver:
+      uri:
+        - http://localhost:8086
