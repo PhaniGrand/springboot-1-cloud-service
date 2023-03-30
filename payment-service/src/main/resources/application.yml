@@ -1,6 +1,8 @@
 server:
   port: 8082
 spring:
+  zipkin:
+    base-url: http://localhost:9411
   h2:
     console:
       enabled: true
@@ -11,5 +13,3 @@ spring:
 logging:
   file:
     name: C:/Users/Phani/Downloads/Other files/Code-base/elk-stack.log
-
-  
