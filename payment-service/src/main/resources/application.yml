@@ -1,0 +1,15 @@
+server:
+  port: 8082
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  application:
+    name: PAYMENT-SERVICE
+
+logging:
+  file:
+    name: C:/Users/Phani/Downloads/Other files/Code-base/elk-stack.log
+
+  
